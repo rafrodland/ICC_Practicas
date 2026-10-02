@@ -13,13 +13,13 @@ public class Programa{
 	//Se define una variabel de tipo decimal usando double.
 	double meses = 18.0;
 
-	//Se pide que se imprima un texto usando doble comilla.
+	//Esta liena solo imprime un texto que indica el inicio de la ficha.
 	System.out.println("=== Ficha de compra ===");
 
 	//Se pide que se imprima un texto mas la variable que se habia guardado.
 	System.out.println("- Producto : " + producto);	
 
-	//Se pide que se imprma un texto y aparte muestre la resta de la variable precio menos descuento..
+	//Se pide que se imprma un texto y aparte muestre la resta de la variable precio menos descuento.
 	System.out.println("- Precio con descuento : " + (precio - descuento));
 
 	//Se pide que se imprima un texto y aparte muestre la division de la variable meses entre el numero 12.

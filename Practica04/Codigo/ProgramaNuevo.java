@@ -13,7 +13,7 @@ public class ProgramaNuevo{
 	//Se define una variabel de tipo decimal usando double.
 	double meses = 18.0;
 
-	//Se pide que se imprima un texto usando doble comilla.
+	//Esta liena solo imprime un texto que indica el inicio de la ficha.
 	System.out.println("=== Ficha de compra ===");
 
 	/*Se pide que se imprima un texto junto con la variable producto,
@@ -22,7 +22,7 @@ public class ProgramaNuevo{
 	 un ultimo texto y muesra el resultado de la resta de precio y descuento entre meses */
 	System.out.printf("- Producto : %s %n- Precio con descuento :%d %n- Plazo de pago en anios :%.1f %n- Pago mensual : %.2f %n", producto, (precio - descuento), (meses / 12.0), ((precio - descuento) / meses));
 
-	//Se pide que se imprima un texto para que se vea bonito.
+	//Esta linea solo imprime un texto que indica el fin de la ficha.
 	System.out.println("=== Fin de la ficha ===");
 
 	}
